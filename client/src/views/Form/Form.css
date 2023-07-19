@@ -1,0 +1,46 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsla(209, 91%, 13%, 0.9);
+    width: 70%;
+    gap: 2rem;
+    padding-bottom: 3rem;
+}
+.form input {
+    margin-bottom: 20px;
+  }
+.form label{
+    color: rgb(234, 248, 31);
+    -webkit-text-stroke: 0.1px blue;
+    -webkit-text-fill-color: yellow;
+}
+.form span{
+    color: red;
+    filter: drop-shadow(8px 8px 4px #ffee00e5);
+}
+.form h1 {
+    color: rgb(234, 248, 31);
+    -webkit-text-stroke: 1px blue;
+   -webkit-text-fill-color: yellow;
+}
+.form button{
+    width: 9rem;
+    color:hsla(0, 0%, 100%, 0.9);
+    -webkit-text-stroke: 1px hsla(0, 0%, 100%, 0.9);
+    border: 2px solid #f03838;
+    background-color: hsla(209, 94%, 55%, 0.7);
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+.form button:hover{
+    background-color: rgb(234, 248, 31);
+}
